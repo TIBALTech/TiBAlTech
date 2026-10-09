@@ -1,0 +1,229 @@
+/* ==========================================================================
+   TiBAl Tech - Services Page Stylesheet (css/services.css)
+   ========================================================================== */
+
+@import url('global.css');
+
+/* ==========================================================================
+   Services Grid & Detailed Service Cards
+   ========================================================================== */
+.services-main-section {
+  padding: 4rem 0 6rem;
+  position: relative;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-bottom: 5rem;
+}
+
+.service-card-large {
+  padding: 3.5rem;
+  border-radius: var(--radius-xl);
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 3.5rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+}
+
+.service-card-large::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(32, 217, 255, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Service Info Left Side */
+.service-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-header-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.service-icon-box {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  background: rgba(32, 217, 255, 0.12);
+  border: 1px solid rgba(32, 217, 255, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cyan);
+  font-size: 1.5rem;
+  box-shadow: 0 0 20px rgba(32, 217, 255, 0.25);
+  transition: all 0.3s ease;
+}
+
+.service-card-large:hover .service-icon-box {
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  color: #030712;
+  box-shadow: 0 0 28px var(--cyan);
+  border-color: #ffffff;
+}
+
+.service-info h2 {
+  font-size: clamp(1.8rem, 3.2vw, 2.3rem);
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.service-info .service-lead {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+/* Features List */
+.service-features-block {
+  margin-bottom: 2rem;
+}
+
+.service-features-block h3,
+.service-usecases-block h3 {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cyan);
+  margin-bottom: 0.9rem;
+  font-family: var(--font-heading);
+}
+
+.feature-checklist {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+}
+
+.feature-checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.feature-checklist li i {
+  color: var(--cyan);
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+}
+
+/* Service Visual Right Side */
+.service-visual-box {
+  background: rgba(4, 11, 23, 0.85);
+  border: 1px solid rgba(32, 217, 255, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.service-svg-wrapper {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 1.8rem;
+  filter: drop-shadow(0 0 16px rgba(32, 217, 255, 0.35));
+  transition: transform 0.4s ease;
+}
+
+.service-card-large:hover .service-svg-wrapper {
+  transform: scale(1.08);
+}
+
+.use-case-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.use-case-tag {
+  font-size: 0.82rem;
+  padding: 0.4rem 0.85rem;
+  background: rgba(22, 131, 255, 0.1);
+  border: 1px solid rgba(32, 217, 255, 0.2);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+/* Service CTA Button in Card */
+.service-action-row {
+  margin-top: 1.5rem;
+}
+
+/* ==========================================================================
+   Bottom Services CTA
+   ========================================================================== */
+.services-cta-section {
+  padding: 3rem 0 6rem;
+  position: relative;
+}
+
+.services-cta-box {
+  background: radial-gradient(circle at center, rgba(16, 38, 77, 0.85) 0%, rgba(7, 17, 31, 0.95) 75%);
+  border: 1px solid rgba(32, 217, 255, 0.35);
+  border-radius: var(--radius-xl);
+  padding: 4.5rem 3rem;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 35px rgba(32, 217, 255, 0.2);
+}
+
+.services-cta-box h2 {
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.services-cta-box p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 2.2rem;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints for Services
+   ========================================================================== */
+@media (max-width: 992px) {
+  .service-card-large {
+    grid-template-columns: 1fr;
+    padding: 2.8rem 2.2rem;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .service-card-large {
+    padding: 2.2rem 1.6rem;
+  }
+
+  .service-visual-box {
+    padding: 1.8rem 1.4rem;
+  }
+
+  .services-cta-box {
+    padding: 3.5rem 1.8rem;
+  }
+}

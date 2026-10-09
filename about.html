@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — TiBAL Tech | Ideas Into Innovation</title>
+  <meta name="description" content="Discover the story and computing inspirations behind TiBAl Tech: Tim Berners-Lee, Charles Babbage, and Alan Turing.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+  <!-- Animated Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navbar (Text Only Brand, No Logo) -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand" aria-label="TiBAl Tech Home">TiBAL Tech</a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link active">About Us</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Our Services</a></li>
+          <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="contact.html" class="btn btn-primary nav-cta">Let's Talk</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- About Hero -->
+    <section class="subpage-hero" id="about-hero">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">ABOUT TIBAL TECH</span>
+          <h1 class="section-title">Turning Visionary Ideas Into <span class="gradient-text">Innovation</span></h1>
+          <p class="section-desc">Honoring the pioneers of computing history to craft modern digital experiences, websites, and future technology systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="story-section" id="story">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-content reveal">
+            <span class="section-tag">OUR STORY</span>
+            <h2>Architecting Digital Solutions from <span class="gradient-text">Concept to Reality</span></h2>
+            <p>
+              <strong>TiBAL Tech</strong> turns simple ideas into modern digital experiences. From responsive websites and custom portals to interactive e-invitations, we combine thoughtful design and modern technology to create digital solutions that are fast, engaging, and built to last.
+            </p>
+          </div>
+
+          <div class="glass-card story-graphic-card reveal delay-2 tilt-card">
+            <span class="badge-pill"><i class="fa-solid fa-atom"></i> FOUNDATIONAL ETHOS</span>
+            <h3>Where History Meets Modern Code</h3>
+            <p>
+              Technology grows from bold ideas, continuous innovation, and the vision of those who shaped computing. At <b>TiBAL Tech</b>, we draw inspiration from these pioneers to create modern digital experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why TiBAl Section (TI, B, AL Pioneers) -->
+    <section class="pioneers-section" id="why-tibal">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">WHY TIBAL?</span>
+          <h2 class="section-title">The Three Pillars of <span class="gradient-text">TiBAL Tech</span></h2>
+          <p class="section-desc">Our brand name honors the iconic figures who laid the foundation for every digital interaction we enjoy today.</p>
+        </div>
+
+        <div class="pioneers-grid">
+          <!-- TI: Tim Berners-Lee -->
+          <div class="glass-card pioneer-card reveal delay-1 tilt-card">
+            <div class="pioneer-badge">TI</div>
+            <h3>Tim Berners-Lee</h3>
+            <div class="pioneer-role">Inventor of the World Wide Web</div>
+            <p>
+              In 1989, Tim Berners-Lee invented the World Wide Web—creating the first web browser, HTML, HTTP, and URLs. His vision opened human communication to a global scale.
+            </p>
+            <div class="pioneer-connection">
+               <i class="fa-solid fa-network-wired"></i>
+               <strong>Our Connection:</strong> We connect people and ideas through open, responsive, and thoughtfully engineered digital experiences.
+            </div>
+          </div>
+
+          <!-- B: Charles Babbage -->
+          <div class="glass-card pioneer-card reveal delay-2 tilt-card">
+            <div class="pioneer-badge">B</div>
+            <h3>Charles Babbage</h3>
+            <div class="pioneer-role">Father of the Computer</div>
+            <p>
+              Charles Babbage conceptualized and designed the first mechanical computing engines—the Difference Engine and the Analytical Engine—proving that human thought and calculation could be mechanized.
+            </p>
+            <div class="pioneer-connection">
+              <i class="fa-solid fa-gears"></i> <strong>Our Connection:</strong> We engineer disciplined digital architectures, ensuring every system runs with precision and structural clarity.
+            </div>
+          </div>
+
+          <!-- AL: Alan Turing -->
+          <div class="glass-card pioneer-card reveal delay-3 tilt-card">
+            <div class="pioneer-badge">AL</div>
+            <h3>Alan Turing</h3>
+            <div class="pioneer-role">Father of Modern Computing &amp; AI</div>
+            <p>
+              Alan Turing formulated the mathematical concepts of algorithm, computation, and the universal machine, breaking foundational ciphers and pioneering artificial intelligence.
+            </p>
+            <div class="pioneer-connection">
+              <i class="fa-solid fa-microchip"></i> <strong>Our Connection:</strong> We apply logical rigor, smart problem-solving, and continuous exploration of future backend solutions.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section class="vision-mission-section" id="vision-mission">
+      <div class="container">
+        <div class="vm-grid">
+          <!-- Vision Card -->
+          <div class="glass-card vm-card reveal delay-1 tilt-card">
+            <div class="vm-icon-box">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <h3>Our <span class="gradient-text">Vision</span></h3>
+            <p>
+             To shape a future where technology is simple, beautiful, and meaningful - turning ideas into digital experiences that inspire, connect, and create lasting impact.
+          </div>
+
+          <!-- Mission Card -->
+          <div class="glass-card vm-card reveal delay-2 tilt-card">
+            <div class="vm-icon-box">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h3>Our <span class="gradient-text">Mission</span></h3>
+            <p>
+              To turn ideas into creative, responsive, and high-performing digital solutions built for today and the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values Section (6 Cards) -->
+    <section class="values-section" id="values">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">OUR VALUES</span>
+          <h2 class="section-title">The Principles That <span class="gradient-text">Guide Us</span></h2>
+          <p class="section-desc">Six core values shape our design decisions, development workflows, and client relationships.</p>
+        </div>
+
+        <div class="values-grid">
+          <!-- 1. Innovation -->
+          <div class="glass-card value-card reveal delay-1 tilt-card">
+            <div class="value-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            <h3>Innovation</h3>
+            <p>We continuously explore new ideas, modern web techniques, and creative interactions to keep our projects fresh, modern, and future-ready.</p>
+          </div>
+
+          <!-- 2. Creativity -->
+          <div class="glass-card value-card reveal delay-2 tilt-card">
+            <div class="value-icon"><i class="fa-solid fa-palette"></i></div>
+            <h3>Creativity</h3>
+            <p>Creating digital experiences that capture emotions, celebrate milestones, and express individuality through unique and meaningful designs.</p>
+          </div>
+
+          <!-- 3. Quality -->
+          <div class="glass-card value-card reveal delay-3 tilt-card">
+            <div class="value-icon"><i class="fa-solid fa-medal"></i></div>
+            <h3>Quality</h3>
+            <p>Building clean, reliable, and responsive websites that load smoothly, perform fast, and work seamlessly across all devices.</p>
+          </div>
+
+          <!-- 4. Simplicity -->
+          <div class="glass-card value-card reveal delay-1 tilt-card">
+            <div class="value-icon"><i class="fa-solid fa-feather"></i></div>
+            <h3>Simplicity</h3>
+            <p>Removing unnecessary clutter and complex navigation to create simple, clear, and smooth user experiences.</p>
+          </div>
+
+          <!-- 5. User Experience -->
+          <div class="glass-card value-card reveal delay-2 tilt-card">
+            <div class="value-icon"><i class="fa-solid fa-users"></i></div>
+            <h3>User Experience</h3>
+            <p>Making every website accessible, mobile-friendly, easy to use, and easy to read on all devices.</p>
+          </div>
+
+          <!-- 6. Continuous Learning -->
+          <div class="glass-card value-card reveal delay-3 tilt-card">
+            <div class="value-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Continuous Learning</h3>
+            <p>Keeping up with new technologies and web standards while improving our skills and solutions with every project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1 — Brand -->
+        <div class="footer-col-brand">
+          <img src="assets/logo.png" alt="TiBAl Tech Official Logo" class="footer-logo-img">
+          <div class="footer-slogan">Ideas Into Innovation.</div>
+          <p class="footer-desc">
+            We turn creative ideas into modern digital experiences and personalized solutions.
+          </p>
+        </div>
+
+        <!-- Column 2 — Quick Links -->
+        <div class="footer-col-links">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Our Services</a></li>
+            <li><a href="team.html"><i class="fa-solid fa-chevron-right"></i> Team</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right"></i> Projects</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 — Services -->
+        <div class="footer-col-services">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#static-websites"><i class="fa-solid fa-chevron-right"></i> Website Development</a></li>
+            <li><a href="services.html#gift-websites"><i class="fa-solid fa-chevron-right"></i> Gift Websites</a></li>
+            <li><a href="services.html#invitation-websites"><i class="fa-solid fa-chevron-right"></i> E-Invitation Websites</a></li>
+            <li>
+              <a href="services.html#backend-websites">
+                <i class="fa-solid fa-chevron-right"></i> Backend Websites <span class="footer-badge-soon">SOON</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 4 — Let's Connect -->
+        <div class="footer-col-connect">
+          <h4 class="footer-col-title">Let's Connect</h4>
+          <p class="footer-connect-text">Have an idea? Let's build it.</p>
+          <a href="mailto:tibaltech@gmail.com" class="footer-email-link">
+            <i class="fa-solid fa-envelope"></i>
+            <span>tibaltech@gmail.com</span>
+          </a>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/people/Tibal-Tech/61595180819305/?sk=followers" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/tibal_tech.off" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@TiBALTech" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-separator"></div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-copy">
+          &copy; 2026 TiBAL Tech. All Rights Reserved.
+        </div>
+        <div class="footer-bottom-slogan">
+          Ideas Into Innovation.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Scroll back to top of page">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript Files -->
+  <script src="js/background.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiBAL Tech — Ideas Into Innovation | Modern Technology Startup</title>
+  <meta name="description" content="TiBAl Tech transforms ideas into modern digital experiences through technology, creativity, responsive design, and innovative web solutions.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+  <!-- Animated Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- 1. Header / Navbar (Text Only Brand, No Logo) -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand" aria-label="TiBAL Tech Home">TiBAL Tech</a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Our Services</a></li>
+          <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="contact.html" class="btn btn-primary nav-cta">Let's Talk</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- 2. Hero Section (Prominently displays assets/logo.png) -->
+    <section class="hero-section" id="hero">
+      <!-- Floating Technology Icons -->
+      <div class="floating-tech-icon tech-icon-1" aria-hidden="true" title="Code"><i class="fa-solid fa-code"></i></div>
+      <div class="floating-tech-icon tech-icon-2" aria-hidden="true" title="Database"><i class="fa-solid fa-database"></i></div>
+      <div class="floating-tech-icon tech-icon-3" aria-hidden="true" title="Globe"><i class="fa-solid fa-globe"></i></div>
+      <div class="floating-tech-icon tech-icon-4" aria-hidden="true" title="Laptop"><i class="fa-solid fa-laptop-code"></i></div>
+      <div class="floating-tech-icon tech-icon-5" aria-hidden="true" title="AI / Microchip"><i class="fa-solid fa-microchip"></i></div>
+
+      <div class="container">
+        <div class="hero-content reveal">
+          <!-- Prominent Official TiBAl Tech Logo -->
+          <div class="hero-logo-wrapper">
+            <img src="assets/logo.png" alt="TiBAl Tech Official Logo" class="hero-logo-img">
+          </div>
+
+          <!-- Small Badge -->
+          <div>
+            <span class="hero-badge">
+              <i class="fa-solid fa-bolt"></i> Turning Ideas Into Digital Experiences
+            </span>
+          </div>
+
+          <!-- Main Company Name & Slogan -->
+          <h1 class="hero-title">TiBAL Tech</h1>
+          <p class="hero-slogan">Ideas Into Innovation</p>
+
+          <!-- Description -->
+          <p class="hero-desc">
+            Turning ideas into modern digital experiences through responsive websites, custom gift platforms, interactive e-invitations, and innovative technology solutions.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-actions">
+            <a href="services.html" class="btn btn-primary">
+              <span>Explore Services</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="projects.html" class="btn btn-secondary">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#who-we-are" class="hero-scroll-indicator" aria-label="Scroll down to Who We Are">
+        <div class="mouse-icon">
+          <div class="mouse-wheel"></div>
+        </div>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- 3. WHO WE ARE Section -->
+    <section class="who-we-are-section" id="who-we-are">
+      <div class="container">
+        <div class="who-grid">
+          <!-- Text Content -->
+          <div class="who-text reveal">
+            <span class="section-tag">WHO WE ARE</span>
+            <h2>We Are <span class="gradient-text">TiBAL Tech</span></h2>
+            <p>
+              TiBAL Tech is a modern technology startup focused on transforming meaningful ideas into engaging digital experiences. We combine advanced web technologies, creative design, and seamless responsiveness to build digital products that are visually compelling, user-friendly, and built to make a lasting impact.
+            </p>
+            
+            <a href="about.html" class="who-link">
+              <span>Discover Our Story</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Futuristic Circular/Orbit Graphic -->
+          <div class="orbital-graphic-container reveal delay-2">
+            <div class="orbit-core">
+              <div class="orbit-ring orbit-ring-1"></div>
+              <div class="orbit-ring orbit-ring-2"></div>
+
+              <!-- Center Orb -->
+              <div class="orbit-center-orb">
+                <span>TiBAl</span>
+                <small>Tech</small>
+              </div>
+
+              <!-- Orbiting Nodes: TI, B, AL -->
+              <div class="orbit-node node-ti" title="Tim Berners-Lee — Inventor of the World Wide Web">
+                <strong>TI</strong>
+                <span>Web</span>
+              </div>
+              <div class="orbit-node node-b" title="Charles Babbage — Pioneer of Computing Engines">
+                <strong>B</strong>
+                <span>Compute</span>
+              </div>
+              <div class="orbit-node node-al" title="Alan Turing — Father of Modern Computing & AI">
+                <strong>AL</strong>
+                <span>Logic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. OUR APPROACH Section -->
+    <section class="approach-section" id="our-approach">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">OUR APPROACH</span>
+          <h2 class="section-title">Ideas Into <span class="gradient-text">Innovation</span></h2>
+          <p class="section-desc">We follow a disciplined engineering process that transforms ideas through strategic analysis, creative innovation, and continuous technical refinement ensuring every solution is built with precision, performance, and purpose.</p>
+        </div>
+
+        <div class="approach-grid">
+          <!-- Card 1: THINK -->
+          <div class="glass-card approach-card reveal delay-1 tilt-card">
+            <div class="approach-card-header">
+              <span class="approach-number">01</span>
+              <div class="approach-icon"><i class="fa-solid fa-brain"></i></div>
+            </div>
+            <h3>THINK</h3>
+            <p>We understand your idea, goals, audience, and requirements. We plan the right approach and user experience before we start coding.</p>
+          </div>
+
+          <!-- Card 2: CREATE -->
+          <div class="glass-card approach-card reveal delay-2 tilt-card">
+            <div class="approach-card-header">
+              <span class="approach-number">02</span>
+              <div class="approach-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            </div>
+            <h3>CREATE</h3>
+            <p>We turn your ideas into modern digital experiences with clean designs, responsive layouts, and fast, reliable websites.</p>
+          </div>
+
+          <!-- Card 3: INNOVATE -->
+          <div class="glass-card approach-card reveal delay-3 tilt-card">
+            <div class="approach-card-header">
+              <span class="approach-number">03</span>
+              <div class="approach-icon"><i class="fa-solid fa-rocket"></i></div>
+            </div>
+            <h3>INNOVATE</h3>
+            <p>We continuously improve every solution with smart technology, creative ideas, and a focus on speed, performance, and long-term growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. WHAT WE OFFER / EXPLORE SERVICES Section -->
+    <section class="explore-services-section">
+      <div class="container">
+        <div class="explore-cta-container reveal">
+          <div class="explore-cta-text">
+            <span class="section-tag">WHAT WE OFFER</span>
+            <h2>Explore Our Services</h2>
+            <p>
+              TiBAL Tech provides modern web and digital solutions tailored to businesses, celebrations, personal milestones, and forward-looking digital initiatives.
+            </p>
+          </div>
+          <a href="services.html" class="btn btn-primary">
+            <span>Explore All Services</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. WHAT WE DO Section -->
+    <section class="what-we-do-section" id="what-we-do">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">WHAT WE DO</span>
+          <h2 class="section-title">Technology Meets <span class="gradient-text">Creativity</span></h2>
+          <p class="section-desc">We bridge modern engineering principles with thoughtful aesthetic design to build websites that feel alive, intuitive, and remarkably fast.</p>
+        </div>
+
+        <div class="feature-blocks-grid">
+          <!-- Feature 1 -->
+          <div class="glass-card feature-block reveal delay-1 tilt-card">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <h3>Modern Design</h3>
+            <p>Clean, modern, premium interfaces created with dark futuristic aesthetics, glassmorphism, balanced typography, and micro-interactions that engage visitors.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="glass-card feature-block reveal delay-2 tilt-card">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3>Responsive Experience</h3>
+            <p>Websites optimized for desktop, tablet, and mobile displays. Fluid scaling, zero horizontal overflow, and consistent touch-first usability across every screen size.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="glass-card feature-block reveal delay-3 tilt-card">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3>Innovation</h3>
+            <p>Creative technology solutions designed around real ideas. From bespoke interactive invitations to personalized gift portals, we solve real communication needs through code.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. SERVICES PREVIEW (4 Cards) -->
+    <section class="services-preview-section" id="services-preview">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">SERVICES PREVIEW</span>
+          <h2 class="section-title">Tailored Digital <span class="gradient-text">Solutions</span></h2>
+          <p class="section-desc">Explore the primary solutions we craft for clients, celebrations, and future architectures.</p>
+        </div>
+
+        <div class="services-preview-grid">
+          <!-- Service Card 01 -->
+          <div class="glass-card service-preview-card reveal delay-1 tilt-card">
+            <div class="service-card-top">
+              <div class="service-card-num-row">
+                <span class="service-num">01</span>
+                <div class="service-preview-icon"><i class="fa-solid fa-window-maximize"></i></div>
+              </div>
+              <h3>Websites Without Backend</h3>
+              <p>Modern static websites built for businesses, portfolios, organizations, and startups with lightning-fast speeds and secure deployment.</p>
+            </div>
+            <a href="services.html#static-websites" class="who-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+
+          <!-- Service Card 02 -->
+          <div class="glass-card service-preview-card reveal delay-2 tilt-card">
+            <div class="service-card-top">
+              <div class="service-card-num-row">
+                <span class="service-num">02</span>
+                <div class="service-preview-icon"><i class="fa-solid fa-gift"></i></div>
+              </div>
+              <h3>Gift Websites</h3>
+              <p>Personalized digital experiences for special occasions and memorable moments, featuring custom audio, photo journeys, and heartfelt interactive stories.</p>
+            </div>
+            <a href="services.html#gift-websites" class="who-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+
+          <!-- Service Card 03 -->
+          <div class="glass-card service-preview-card reveal delay-3 tilt-card">
+            <div class="service-card-top">
+              <div class="service-card-num-row">
+                <span class="service-num">03</span>
+                <div class="service-preview-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+              </div>
+              <h3>E-Invitation Websites</h3>
+              <p>Interactive digital invitations for weddings, engagements, birthdays, events, and celebrations with location maps and RSVP features.</p>
+            </div>
+            <a href="services.html#invitation-websites" class="who-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+
+          <!-- Service Card 04 -->
+          <div class="glass-card service-preview-card reveal delay-4 tilt-card">
+            <div class="service-card-top">
+              <div class="service-card-num-row">
+                <span class="service-num">04</span>
+                <div class="service-preview-icon"><i class="fa-solid fa-server"></i></div>
+              </div>
+              <h3>Websites With Backend</h3>
+              <p>Dynamic websites with database and backend functionality for user authentication, data management, and custom APIs.</p>
+              <span class="badge-coming-soon">COMING SOON</span>
+            </div>
+            <a href="services.html#backend-websites" class="who-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. PROJECT PREVIEW (OUR WORK) -->
+    <section class="projects-preview-section" id="projects-preview">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">OUR WORK</span>
+          <h2 class="section-title">Projects That Turn Ideas Into <span class="gradient-text">Experiences</span></h2>
+          <p class="section-desc">A selection of authentic digital experiences engineered by TiBAl Tech.</p>
+        </div>
+
+        <div class="projects-preview-grid">
+          <!-- Project 1: NaveenKumar & Sona -->
+          <div class="glass-card project-preview-card reveal delay-1 tilt-card">
+            <div class="project-preview-img-wrap">
+              <img src="assets/projects/ring_exchange.png" alt="NaveenKumar & Sona E-Invitation Preview" loading="lazy">
+            </div>
+            <div class="project-preview-info">
+              <span class="project-cat-badge">E-Invitation Website</span>
+              <h3>Engagement Website</h3>
+              <p>An interactive digital engagement celebration website designed with custom music integration, event details, venue navigation, and mobile celebration layout.</p>
+            </div>
+          </div>
+
+          <!-- Project 2: School Website -->
+          <div class="glass-card project-preview-card reveal delay-2 tilt-card">
+            <div class="project-preview-img-wrap">
+              <img src="assets/projects/School_website.png" alt="School Website Preview" loading="lazy">
+            </div>
+            <div class="project-preview-info">
+              <span class="project-cat-badge">School Website</span>
+              <h3>In Process</h3>
+              <p>A structured, modern web portal designed for educational institutions to display academic curricula, announcements, admissions, and student schedules.</p>
+            </div>
+          </div>
+
+          <!-- Project 3: Coming Soon -->
+          <div class="glass-card project-preview-card reveal delay-3 tilt-card">
+            <div class="project-preview-img-wrap">
+              <img src="assets/projects/more_projects.png" alt="Coming Soon Future Project Preview" loading="lazy">
+            </div>
+            <div class="project-preview-info">
+              <span class="project-cat-badge">Future Project</span>
+              <h3>Coming Soon</h3>
+              <p>A next-generation technology solution currently in development, incorporating intelligent data pipelines and dynamic backend integrations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-center-btn reveal">
+          <a href="projects.html" class="btn btn-secondary">
+            <span>View All Projects</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. FINAL CTA Section -->
+    <section class="final-cta-section" id="final-cta">
+      <div class="container">
+        <div class="final-cta-box reveal">
+          <h2>Have an Idea? <span class="gradient-text">Let’s Build It.</span></h2>
+          <p>Have an idea for a website or digital experience? Let’s transform it into something meaningful.</p>
+          <a href="contact.html" class="btn btn-primary">
+            <span>Start a Project</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 10. Shared Wide Professional Dark Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1 — Brand -->
+        <div class="footer-col-brand">
+          <img src="assets/logo.png" alt="TiBAl Tech Official Logo" class="footer-logo-img">
+          <div class="footer-slogan">Ideas Into Innovation.</div>
+          <p class="footer-desc">
+            We turn creative ideas into modern digital experiences and personalized solutions.
+          </p>
+        </div>
+
+        <!-- Column 2 — Quick Links -->
+        <div class="footer-col-links">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Our Services</a></li>
+            <li><a href="team.html"><i class="fa-solid fa-chevron-right"></i> Team</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right"></i> Projects</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 — Services -->
+        <div class="footer-col-services">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#static-websites"><i class="fa-solid fa-chevron-right"></i> Website Development</a></li>
+            <li><a href="services.html#gift-websites"><i class="fa-solid fa-chevron-right"></i> Gift Websites</a></li>
+            <li><a href="services.html#invitation-websites"><i class="fa-solid fa-chevron-right"></i> E-Invitation Websites</a></li>
+            <li>
+              <a href="services.html#backend-websites">
+                <i class="fa-solid fa-chevron-right"></i> Backend Websites <span class="footer-badge-soon">SOON</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 4 — Let's Connect -->
+        <div class="footer-col-connect">
+          <h4 class="footer-col-title">Let's Connect</h4>
+          <p class="footer-connect-text">Have an idea? Let's build it.</p>
+          <a href="mailto:tibaltech@gmail.com" class="footer-email-link">
+            <i class="fa-solid fa-envelope"></i>
+            <span>tibaltech@gmail.com</span>
+          </a>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/people/Tibal-Tech/61595180819305/?sk=followers" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/tibal_tech.off" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@TiBALTech" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-separator"></div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-copy">
+          &copy; 2026 TiBAL Tech. All Rights Reserved.
+        </div>
+        <div class="footer-bottom-slogan">
+          Ideas Into Innovation.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 17. Back to Top Button -->
+  <button id="back-to-top" aria-label="Scroll back to top of page">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript Files -->
+  <script src="js/background.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

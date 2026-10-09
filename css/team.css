@@ -1,0 +1,158 @@
+/* ==========================================================================
+   TiBAl Tech - Team Page Stylesheet (css/team.css)
+   ========================================================================== */
+
+@import url('global.css');
+
+/* ==========================================================================
+   Team Members Grid
+   ========================================================================== */
+.team-main-section {
+  padding: 4rem 0 7rem;
+  position: relative;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.team-card {
+  height: 350px;
+  box-sizing: border-box;
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  transition: all var(--transition-normal);
+}
+
+/* Avatar Frame */
+.team-photo-wrap {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding: 6px;
+  background: linear-gradient(135deg, rgba(32, 217, 255, 0.4), rgba(22, 131, 255, 0.2));
+  box-shadow: 0 0 25px rgba(32, 217, 255, 0.25);
+  margin-bottom: 1.8rem;
+  position: relative;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.team-card:hover .team-photo-wrap {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px rgba(32, 217, 255, 0.5);
+  background: linear-gradient(135deg, var(--cyan), var(--blue));
+}
+
+.team-photo-wrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #030712;
+  border: 2px solid rgba(7, 17, 31, 0.9);
+}
+
+/* Status Pill */
+.team-status-dot {
+  position: absolute;
+  bottom: 8px;
+  right: 14px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #20d9ff;
+  border: 3px solid #030712;
+  box-shadow: 0 0 10px #20d9ff;
+}
+
+/* Team Info */
+.team-card h3 {
+  font-size: 1.45rem;
+  margin-bottom: 0.35rem;
+  color: #ffffff;
+}
+
+.team-role {
+  font-family: var(--font-heading);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--cyan);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.team-focus-desc {
+  font-size: 0.93rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 280px;
+}
+
+/* Tag Pills */
+.team-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(32, 217, 255, 0.12);
+  width: 100%;
+}
+
+.skill-tag {
+  font-size: 0.76rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background: rgba(32, 217, 255, 0.08);
+  border: 1px solid rgba(32, 217, 255, 0.2);
+  color: var(--text-primary);
+}
+
+/* Team Culture Banner */
+.team-culture-box {
+  background: radial-gradient(circle at center, rgba(16, 38, 77, 0.7) 0%, rgba(7, 17, 31, 0.9) 70%);
+  border: 1px solid rgba(32, 217, 255, 0.25);
+  border-radius: var(--radius-xl);
+  padding: 3.5rem 3rem;
+  text-align: center;
+}
+
+.team-culture-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.team-culture-box p {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints for Team
+   ========================================================================== */
+@media (max-width: 992px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}

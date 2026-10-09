@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="srv-grad-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#45b6ff"/>
+      <stop offset="100%" stop-color="#20d9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="rgba(22, 131, 255, 0.1)" stroke="rgba(32, 217, 255, 0.25)" stroke-width="1.5"/>
+  <!-- Server stack -->
+  <g stroke="url(#srv-grad-4)" stroke-width="2" fill="none">
+    <!-- Server 1 -->
+    <rect x="22" y="24" width="56" height="18" rx="4" fill="rgba(7, 17, 31, 0.9)"/>
+    <circle cx="30" cy="33" r="2.5" fill="#20d9ff"/>
+    <circle cx="38" cy="33" r="2.5" fill="#45b6ff"/>
+    <line x1="52" y1="33" x2="70" y2="33" stroke="rgba(32, 217, 255, 0.5)" stroke-width="2"/>
+
+    <!-- Server 2 -->
+    <rect x="22" y="46" width="56" height="18" rx="4" fill="rgba(7, 17, 31, 0.9)"/>
+    <circle cx="30" cy="55" r="2.5" fill="#20d9ff"/>
+    <circle cx="38" cy="55" r="2.5" fill="#45b6ff"/>
+    <line x1="52" y1="55" x2="70" y2="55" stroke="rgba(32, 217, 255, 0.5)" stroke-width="2"/>
+
+    <!-- Server 3 -->
+    <rect x="22" y="68" width="56" height="18" rx="4" fill="rgba(7, 17, 31, 0.9)"/>
+    <circle cx="30" cy="77" r="2.5" fill="#20d9ff"/>
+    <circle cx="38" cy="77" r="2.5" fill="#45b6ff"/>
+    <line x1="52" y1="77" x2="70" y2="77" stroke="rgba(32, 217, 255, 0.5)" stroke-width="2"/>
+  </g>
+</svg>

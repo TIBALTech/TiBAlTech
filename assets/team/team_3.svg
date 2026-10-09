@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatar-bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051630"/>
+      <stop offset="100%" stop-color="#020814"/>
+    </linearGradient>
+    <linearGradient id="neon-stroke3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#45b6ff"/>
+      <stop offset="100%" stop-color="#1683ff"/>
+    </linearGradient>
+    <filter id="glow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="300" height="300" rx="24" fill="url(#avatar-bg3)"/>
+  
+  <!-- Subtle circular grid & matrix brackets -->
+  <circle cx="150" cy="140" r="110" fill="none" stroke="rgba(22, 131, 255, 0.12)" stroke-width="1"/>
+  <rect x="85" y="75" width="130" height="130" rx="8" fill="none" stroke="rgba(32, 217, 255, 0.1)" stroke-dasharray="6 6"/>
+  
+  <!-- Holographic silhouette -->
+  <g fill="none" stroke="url(#neon-stroke3)" stroke-width="2.5" filter="url(#glow3)">
+    <!-- Head -->
+    <path d="M 150,75 C 168,75 180,88 180,108 C 180,126 168,140 150,140 C 132,140 120,126 120,108 C 120,88 132,75 150,75 Z" fill="rgba(22, 131, 255, 0.08)"/>
+    <!-- Code symbol over chest -->
+    <path d="M 136,192 L 126,202 L 136,212" stroke="#20d9ff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 164,192 L 174,202 L 164,212" stroke="#20d9ff" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Torso / Shoulders -->
+    <path d="M 90,230 C 90,185 115,168 150,168 C 185,168 210,185 210,230" fill="rgba(69, 182, 255, 0.06)"/>
+  </g>
+</svg>

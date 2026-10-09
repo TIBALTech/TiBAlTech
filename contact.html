@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — TiBAL Tech | Let's Build Something Together</title>
+  <meta name="description" content="Reach out to TiBAl Tech via Email or WhatsApp to turn your web and digital ideas into innovation.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+  <!-- Animated Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navbar (Text Only Brand, No Logo) -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand" aria-label="TiBAl Tech Home">TiBAL Tech</a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Our Services</a></li>
+          <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="contact.html" class="btn btn-primary nav-cta">Let's Talk</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Contact Hero -->
+    <section class="subpage-hero" id="contact-hero">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">START A PROJECT</span>
+          <h1 class="section-title">Let's Build Something <span class="gradient-text">Together</span></h1>
+          <p class="section-desc">Have an idea for a website or digital experience? Reach out to us directly through WhatsApp or Email to discuss your project.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Content Section -->
+    <section class="contact-main-section" id="contact-content">
+      <div class="container">
+        <div class="contact-layout-grid">
+
+          <!-- Left Column: Contact Channels -->
+          <div class="contact-info-col reveal delay-1">
+
+            <!-- Email Channel -->
+            <div class="glass-card contact-info-card tilt-card">
+              <div class="contact-channel-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-channel-details">
+                <span class="channel-label">Official Email</span>
+                <a href="mailto:tibaltech@gmail.com" class="channel-val">tibaltech@gmail.com</a>
+                <span class="channel-hint">For inquiries, project proposals &amp; details</span>
+              </div>
+            </div>
+
+            <!-- WhatsApp Channel -->
+            <div class="glass-card contact-info-card tilt-card">
+              <div class="contact-channel-icon" style="color: #25d366; border-color: rgba(37, 211, 102, 0.4); background: rgba(37, 211, 102, 0.1);">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="contact-channel-details">
+                <span class="channel-label" style="color: #25d366;">Direct WhatsApp</span>
+                <a href="https://wa.me/+918610535961" target="_blank" rel="noopener noreferrer" class="channel-val">+91 8610535961</a>
+                <span class="channel-hint">Instant messaging &amp; project consultation</span>
+              </div>
+            </div>
+
+            <!-- Social Connect Box -->
+            <div class="glass-card contact-socials-box">
+              <h4>Social Profiles</h4>
+              <p>Follow TiBAL Tech across our official social channels:</p>
+              <div class="socials-row">
+                <a href="https://www.instagram.com/tibal_tech.off" target="_blank" rel="noopener noreferrer" class="social-link-btn">
+                  <i class="fa-brands fa-instagram" style="color: #e1306c;"></i>
+                  <span>Instagram</span>
+                </a>
+                <a href="https://www.youtube.com/@TiBALTech" target="_blank" rel="noopener noreferrer" class="social-link-btn">
+                  <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
+                  <span>YouTube</span>
+                </a>
+                <a href="https://www.facebook.com/people/Tibal-Tech/61595180819305/?sk=followers" target="_blank" rel="noopener noreferrer" class="social-link-btn">
+                  <i class="fa-brands fa-facebook-f" style="color: #1877f2;"></i>
+                  <span>Facebook</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Response Transparency Notice -->
+            <div class="glass-card contact-info-card" style="border-color: rgba(32, 217, 255, 0.2);">
+              <div class="contact-channel-icon" style="font-size: 1.1rem; width: 44px; height: 44px;">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="contact-channel-details">
+                <span class="channel-label">Response Time</span>
+                <span style="color: var(--text-primary); font-weight: 500; font-size: 0.95rem;">Within 24 Hours</span>
+                <span class="channel-hint">We review each project inquiry thoroughly.</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Interactive Form -->
+          <div class="glass-card contact-form-card reveal delay-2">
+            <div class="contact-form-header">
+              <span class="badge-pill" style="margin-bottom: 0.8rem;"><i class="fa-solid fa-paper-plane"></i> DIRECT INQUIRY</span>
+              <h3>Send Us a Message</h3>
+              <p>Fill out the details below to format your inquiry and send directly via WhatsApp.</p>
+            </div>
+
+            <form id="contact-form" novalidate>
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name <span class="req">*</span></label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Tibal" required>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="req">*</span></label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="abc@example.com" required>
+              </div>
+
+              <!-- Phone Field -->
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone / WhatsApp Number</label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 xxxxxxxxxx">
+              </div>
+
+              <!-- Service Dropdown -->
+              <div class="form-group">
+                <label for="service" class="form-label">Service of Interest</label>
+                <select id="service" name="service" class="form-select">
+                  <option value="Websites Without Backend">Websites Without Backend (Static Website)</option>
+                  <option value="Gift Websites">Gift Websites (Personalized Experience)</option>
+                  <option value="E-Invitation Websites">E-Invitation Websites (Celebrations &amp; Events)</option>
+                  <option value="Backend Websites Waitlist">Websites With Backend (Coming Soon / Waitlist)</option>
+                  <option value="General Tech Inquiry">General Technology Consultation</option>
+                </select>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="message" class="form-label">Project Message / Requirements <span class="req">*</span></label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your idea, timeline, and goals..." required></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-whatsapp-send">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Send Message</span>
+              </button>
+
+              <p class="form-notice">
+                <i class="fa-solid fa-circle-info"></i> Note: Clicking will automatically prepare your message and open WhatsApp to chat with our team directly.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1 — Brand -->
+        <div class="footer-col-brand">
+          <img src="assets/logo.png" alt="TiBAl Tech Official Logo" class="footer-logo-img">
+          <div class="footer-slogan">Ideas Into Innovation.</div>
+          <p class="footer-desc">
+            We turn creative ideas into modern digital experiences and personalized solutions.
+          </p>
+        </div>
+
+        <!-- Column 2 — Quick Links -->
+        <div class="footer-col-links">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Our Services</a></li>
+            <li><a href="team.html"><i class="fa-solid fa-chevron-right"></i> Team</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-right"></i> Projects</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 — Services -->
+        <div class="footer-col-services">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#static-websites"><i class="fa-solid fa-chevron-right"></i> Website Development</a></li>
+            <li><a href="services.html#gift-websites"><i class="fa-solid fa-chevron-right"></i> Gift Websites</a></li>
+            <li><a href="services.html#invitation-websites"><i class="fa-solid fa-chevron-right"></i> E-Invitation Websites</a></li>
+            <li>
+              <a href="services.html#backend-websites">
+                <i class="fa-solid fa-chevron-right"></i> Backend Websites <span class="footer-badge-soon">SOON</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 4 — Let's Connect -->
+        <div class="footer-col-connect">
+          <h4 class="footer-col-title">Let's Connect</h4>
+          <p class="footer-connect-text">Have an idea? Let's build it.</p>
+          <a href="mailto:tibaltech@gmail.com" class="footer-email-link">
+            <i class="fa-solid fa-envelope"></i>
+            <span>tibaltech@gmail.com</span>
+          </a>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/people/Tibal-Tech/61595180819305/?sk=followers" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/tibal_tech.off" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@TiBALTech" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="TiBAl Tech on YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-separator"></div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-copy">
+          &copy; 2026 TiBAL Tech. All Rights Reserved.
+        </div>
+        <div class="footer-bottom-slogan">
+          Ideas Into Innovation.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Scroll back to top of page">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript Files -->
+  <script src="js/background.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- URL parameter handler for service pre-selection -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const serviceParam = urlParams.get('service');
+      if (serviceParam) {
+        const select = document.getElementById('service');
+        if (select) {
+          for (let i = 0; i < select.options.length; i++) {
+            if (select.options[i].value === serviceParam || select.options[i].text.includes(serviceParam)) {
+              select.selectedIndex = i;
+              break;
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
